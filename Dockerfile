@@ -14,5 +14,8 @@ COPY . .
 # Expose port
 EXPOSE 8000
 
+#make sure entrypoint.sh is executable
+RUN chmod +x entrypoint.sh
+
 # Entrypoint script
 ENTRYPOINT ["/bin/sh", "entrypoint.sh"]

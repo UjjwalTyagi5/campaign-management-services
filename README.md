@@ -39,6 +39,7 @@ backend/
 ## Getting Started
 
 ### Local Development
+### Create virtual environment befor this step
 1. Install dependencies:
    ```cmd
    pip install -r requirements.txt
@@ -59,7 +60,7 @@ backend/
    ```
 2. Run the container:
    ```powershell
-   docker run -p 8000:8000 fastapi-campaigns
+  docker run -p 8000:8000 fastapi-campaigns start-api-server
    ```
 
 ## Main API Endpoints
@@ -85,5 +86,3 @@ backend/
 - Add business logic in `api/dependencies/`
 - Update `entrypoint.sh` for more services
 
-## License
-MIT
