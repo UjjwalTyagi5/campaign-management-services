@@ -60,7 +60,7 @@ backend/
    ```
 2. Run the container:
    ```powershell
-  docker run -p 8000:8000 fastapi-campaigns start-api-server
+     docker run -p 8000:8000 fastapi-campaigns start-api-server
    ```
 
 ## Main API Endpoints
