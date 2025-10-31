@@ -1,0 +1,2 @@
+2025-11-01 00:40:28.361 | DEBUG    | main:create_app:27 - origins : ['http://localhost', 'http://127.0.0.1']
+2025-11-01 00:40:37.581 | INFO     | api.dependencies.customers:get_customers_helper:43 - Fetched all customers, count=5
